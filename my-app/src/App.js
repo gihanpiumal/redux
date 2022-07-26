@@ -1,5 +1,4 @@
 import { useSelector, useDispatch } from "react-redux";
-import Test from "./test";
 
 function App() {
   const dispatch = useDispatch();
@@ -23,7 +22,6 @@ function App() {
       <button onClick={decrement}>Decrement</button>
       <button onClick={addBy}>Add Value</button>
       <br />
-      <Test />
     </div>
   );
 }
